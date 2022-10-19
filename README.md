@@ -8,7 +8,7 @@ The checkpoint is quite consequent, it's no big deal if you don't do everything 
 
 ## :zero: Setup | 30sec
 
-Before starting anything technical, your first mission is to clone this project, then create a branch with your lastname and firstname like so : `lastname_firstname`
+Before starting anything technical, your first mission is to fork this project and to clone it.
 
 ## :one: Step[1] - Database modeling | 20 min
 
