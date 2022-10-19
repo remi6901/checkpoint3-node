@@ -5,7 +5,7 @@ module.exports = (req, res) => {
 
   database
     .query(
-      'SELECT * FROM album JOIN track ON track.id_album=album.id WHERE album.id = ?',
+      'SELECT a.artist, a.title AS title_album, t.title AS title_track FROM album AS a JOIN track AS t ON t.id_album=a.id WHERE a.id = ?',
       [id]
     )
     .then(([album]) => {
