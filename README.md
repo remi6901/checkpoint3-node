@@ -143,11 +143,6 @@ _Remember: for the tests to work properly, you need an `album` with id `1` and a
 
 ---
 
-## :three: Step[3] - Quiz | 5 min
-
-Your instructor will provide you the quiz link. You will need to login with Github in order to access it.  
-Once you have validated it, you can check your answers on your `profile` page :
-
 ## It's done ! Congrats !
 
 You can now chill :beers:
