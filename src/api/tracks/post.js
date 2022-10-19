@@ -10,7 +10,7 @@ module.exports = (req, res) => {
       id_album,
     ])
     .then(([result]) => {
-      res.location(`/albums/${result.insertId}`).sendStatus(201);
+      res.location(`/api/tracks/${result.insertId}`).sendStatus(201);
     })
     .catch((err) => {
       console.error(err);
